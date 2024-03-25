@@ -6,7 +6,8 @@ import com.myapp.datatransferobject.CarDTO;
 import com.myapp.domainobject.CarDO;
 import com.myapp.exception.ConstraintsViolationException;
 import com.myapp.exception.EntityNotFoundException;
-import com.myapp.service.car.CarService;
+import com.myapp.service.vela.CarService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;

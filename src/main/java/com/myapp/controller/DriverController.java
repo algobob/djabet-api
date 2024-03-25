@@ -8,8 +8,8 @@ import com.myapp.domainvalue.OnlineStatus;
 import com.myapp.exception.CarAlreadyInUseException;
 import com.myapp.exception.ConstraintsViolationException;
 import com.myapp.exception.EntityNotFoundException;
-import com.myapp.service.car.CarService;
 import com.myapp.service.driver.DriverService;
+import com.myapp.service.car.CarService;
 
 import java.util.List;
 import java.util.stream.Collectors;

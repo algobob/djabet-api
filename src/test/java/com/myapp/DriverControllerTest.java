@@ -6,8 +6,9 @@ import com.myapp.domainobject.DriverDO;
 import com.myapp.domainvalue.EngineType;
 import com.myapp.domainvalue.OnlineStatus;
 import com.myapp.exception.CarAlreadyInUseException;
-import com.myapp.service.car.CarService;
 import com.myapp.service.driver.DriverService;
+import com.myapp.service.car.CarService;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
